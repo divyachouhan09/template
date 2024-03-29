@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Abel", sans-serif;
+}
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-div{
+    padding: 0;
+    margin: 0;
+}
+.front {
+    width: 100vw;
+    height: 100vb;
+    background-image: url('photo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.front-items {
+    color: aliceblue;
+    text-align: center;
+}
+
+.front-items h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 2.7rem;
+
+}
+
+.front-items img {
+    margin: 13px;
+    cursor: pointer;
+}
+
+.play-icon {
+    font-size: 2rem;
+    line-height: 60px;
+    color: #333;
+}
+
+.try-btn {
+    background-color: #8e5549;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.front-items p {
+    font-size: 0.7rem;
+    color: #fcded0;
+}
+
+.img-text {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    background:#eee8e5;
+}
+
+.bedroom-desc {
+    flex-grow: 1;
+    margin: auto;
+}
+
+.bedroom {
+    justify-self: right;
+    
+}
+
+
+.desc {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: "Abel", sans-serif;
+}
+
+.desc h3{
+    color: #8e5549;
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+}   
+
+.desc h1{
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.desc p{
+    font-family: "Abel", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 5px;
+    color: #665e5e;
+}
+
+.feature{
+    background-image: url('a220653f45023cd1b17a5f16d586fcba.jpg');
+    background-size: cover;
+    background-position: center;
+   height: 470px;
+    font-family: "Abel", sans-serif;
+    width: 100vw;
+}
+
+.feature-heading{
+    text-align: center;
+    font-weight: bolder;
+   padding-top: 80px;
+   padding-bottom: 50px;
+}
+.feature-heading h3{
+    
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+    color: #593d37;
+    font-weight: bolder;
+}
+.feature-heading h1{
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+}
+
+.feature-items{
+    font-family: "Abel", sans-serif;
+    text-align: center;
+   
+}
+
+.feature-items h2{
+    padding-top: 10px;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+.feature-items p{
+    font-family: "Abel", sans-serif;
+    font-size: 0.9rem;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.feature-row{
+    font-family: "Abel", sans-serif;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.fruit{
+    background-image: url('c4ffeaae433bc0c44f97eef925d73950.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.fruit-container{
+    font-family: "Abel", sans-serif;
+    padding-top: 80px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.fruit-text{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 130px;
+}
+
+.fruit-text h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.fruit-container h3{
+    color: #8e5549;
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+}
+
+.fruit-container p{
+    font-family: "Abel", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 5px;
+    color: #665e5e;
+}
+
+.worker{
+    background-image: url('Download\ free\ image\ of\ Brown\ abstract\ background\ wallpaper\ image\ \ by\ Nunny\ about\ wallpaper\,\ backgrounds\,\ abstract\ background\,\ design\ background\,\ and\ desktop\ wallpaper\ 2620390.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+}
+
+.worker-items{
+    font-family: "Abel", sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.worker-items h3{
+    padding-top: 10px;
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+.worker-items h4{
+    font-family: "Abel", sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #bcb2b0;
+    padding: 0;
+}
+.worker-items p{
+    font-family: "Abel", sans-serif;
+    font-size: 0.9rem;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #eee8e5;
+}
+
+.worker-row{
+    padding-top: 70px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+}
+.logo img{
+    cursor: pointer;
+}
+.bottom{
+    background:#eee8e5;
+    height: 250px;
+    font-family: "Abel", sans-serif;
+    
+}
+
+.bottom-row{
+    padding-top: 60px;
+    text-align: left;
+    justify-content:space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bottom-row h5{
+    padding-bottom: 10px;
+}
+.bottom-row li{
+    text-align: left;
+    list-style: none;
+}
+
+.address{
+    padding-right: 100px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bottom-row h5{
+    font-weight: bolder;
+}
+input::placeholder {
+    padding-left: 3px;
+  }
+
+.footer-logo svg{
+    cursor: pointer;
+}
+.bottom-row img{
+    cursor: pointer;
+}
